@@ -1,0 +1,8 @@
+a.out
+build
+compile_commands.json
+.cache
+.cache/
+.cache/*
+CMakeUserPresets.json
+.gdb_history

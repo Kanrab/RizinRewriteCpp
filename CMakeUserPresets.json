@@ -1,0 +1,9 @@
+{
+    "version": 4,
+    "vendor": {
+        "conan": {}
+    },
+    "include": [
+        "/home/jared/Projects/Binary-Loader/build/CMakePresets.json"
+    ]
+}
