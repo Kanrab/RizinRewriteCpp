@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(BinaryLoader CXX)
+project(RizinRewriteCpp CXX)
 
 find_package(fmt REQUIRED)
 find_package(capstone REQUIRED)
@@ -37,4 +37,7 @@ set_target_properties(rizin_rewrite_cpp PROPERTIES
 target_link_libraries(rizin_rewrite_cpp PRIVATE
     fmt::fmt
     capstone::capstone
+    gvc
+    cgraph
+    cdt
 )
